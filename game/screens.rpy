@@ -342,6 +342,7 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.text_properties("navigation_button")
+    font "Cinzel-Medium.ttf"
     xalign 0.5
 
 ## Main Menu screen ############################################################
