@@ -294,10 +294,11 @@ screen navigation():
 # We know it's navigation becasue it has this prefix above so i these changes only affect navigation
         if renpy.get_screen("main_menu"):
             xalign 0.5
+            yalign 0.5
         else:
             xoffset 60
-        yalign 0.5
-
+            yalign 0.5
+        
         spacing gui.navigation_spacing
 
         if main_menu:
