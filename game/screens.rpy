@@ -312,7 +312,7 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("Options") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -347,6 +347,7 @@ style navigation_button_text:
     properties gui.text_properties("navigation_button")
     font "Cinzel-Medium.ttf"
     selected_color "#ff0000"
+    outlines [(absolute(1), "#45A29E", absolute(0), absolute(0))]
     xalign 0.5
 
 ## Main Menu screen ############################################################
